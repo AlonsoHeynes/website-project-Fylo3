@@ -1,0 +1,61 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  background-color: #181f2a;
+  font-family: "Open sans", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+header {
+  padding: 20px;
+  background-color: #1c2431;
+}
+header .header-logo-and-nav {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+header .header-logo-and-nav img {
+  width: 40%;
+}
+header .header-logo-and-nav nav {
+  text-align: right;
+}
+header .header-logo-and-nav nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8em;
+  margin-left: 15px;
+}
+header .header-main-content {
+  text-align: center;
+  padding: 60px 20px;
+  line-height: 1.5;
+}
+header .header-main-content .header-illustration img {
+  width: 100%;
+}
+header .header-main-content .header-text h1 {
+  font-size: 1.4em;
+  margin: 40px 0;
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
+/*# sourceMappingURL=styles.css.map */

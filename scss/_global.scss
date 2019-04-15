@@ -1,0 +1,21 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    background-color: $main;
+    font-family: $body;
+    color: $white;
+    font-size: $bodyFontSize;
+
+}

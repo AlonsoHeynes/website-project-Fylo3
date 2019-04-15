@@ -1,0 +1,41 @@
+header {
+    padding: 20px;
+    background-color: $introAndEmail;
+    .header-logo-and-nav {
+        display: grid;
+        grid-template-columns: auto auto;
+        img {
+            width: 40%;
+        }
+        nav {
+            text-align: right;
+            a {
+                text-decoration: none;
+                color: $white;
+                font-family: $headings;
+                font-size: 0.8em;
+                margin-left: 15px;
+            }
+        }
+    }
+    .header-main-content {
+        text-align: center;
+        padding: 60px 20px;
+        line-height: 1.5;
+        .header-illustration {
+            img {
+                width: 100%;
+            }
+        }
+        .header-text {
+            h1 {
+                font-size: 1.4em;
+                margin: 40px 0;
+                background-image: url('../images/bg-curvy-mobile.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: top center; 
+            }
+        }
+    }
+}

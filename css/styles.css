@@ -52,10 +52,77 @@ header .header-main-content .header-illustration img {
 header .header-main-content .header-text h1 {
   font-size: 1.4em;
   margin: 40px 0;
-  background-image: url("../images/bg-curvy-mobile.svg");
+  /*background-image: url('../images/bg-curvy-mobile.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top center;
+  background-position: top center; */
+}
+header .header-main-content .header-text button {
+  padding: 10px 60px;
+  margin: 20px 0;
+  border-radius: 35px;
+  color: white;
+  border: 1px solid #339ecc;
+  background: #65e2da;
+  background: -moz-linear-gradient(left, #65e2da 0%, #339ecc 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #65e2da), color-stop(100%, #339ecc));
+  background: -webkit-linear-gradient(left, #65e2da 0%, #339ecc 100%);
+  background: -o-linear-gradient(left, #65e2da 0%, #339ecc 100%);
+  background: -ms-linear-gradient(left, #65e2da 0%, #339ecc 100%);
+  background: linear-gradient(to right, #65e2da 0%, #339ecc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#65e2da", endColorstr="#339ecc", GradientType=1 );
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 60px;
+  }
+  header .header-logo-and-nav img {
+    width: auto;
+  }
+  header .header-logo-and-nav nav a {
+    font-size: 1.2em;
+    margin-left: 45px;
+  }
+  header .header-main-content {
+    padding: 60px 40px;
+  }
+  header .header-main-content .header-text h1 {
+    font-size: 2.9em;
+  }
+  header .header-main-content .header-text p {
+    margin: 0 auto;
+    font-size: 1.4em;
+  }
+  header .header-main-content .header-text button {
+    font-size: 1.2em;
+    padding: 15px 80px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  header {
+    padding: 60px;
+  }
+  header .header-logo-and-nav nav a {
+    margin-left: 85px;
+  }
+  header .header-main-content {
+    padding: 60px 220px;
+  }
+  header .header-main-content .header-text p {
+    width: 70%;
+  }
+}
+.middle-four-blocks-section {
+  display: grid;
+  text-align: center;
+}
+.middle-four-blocks-section .block {
+  width: 270px;
+  margin: 0 auto;
+}
+.middle-four-blocks-section .block .block-image img {
+  height: 5%;
 }
 
 /*# sourceMappingURL=styles.css.map */

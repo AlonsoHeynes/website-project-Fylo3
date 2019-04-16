@@ -31,10 +31,25 @@ header {
             h1 {
                 font-size: 1.4em;
                 margin: 40px 0;
-                background-image: url('../images/bg-curvy-mobile.svg');
+                /*background-image: url('../images/bg-curvy-mobile.svg');
                 background-repeat: no-repeat;
                 background-size: contain;
-                background-position: top center; 
+                background-position: top center; */
+            }
+            button {
+                padding: 10px 60px;
+                margin: 20px 0;
+                border-radius: 35px;
+                color: $white;
+                border: 1px solid $blue;
+                background: rgba(101,226,218,1);
+                background: -moz-linear-gradient(left, rgba(101,226,218,1) 0%, rgba(51,158,204,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(101,226,218,1)), color-stop(100%, rgba(51,158,204,1)));
+                background: -webkit-linear-gradient(left, rgba(101,226,218,1) 0%, rgba(51,158,204,1) 100%);
+                background: -o-linear-gradient(left, rgba(101,226,218,1) 0%, rgba(51,158,204,1) 100%);
+                background: -ms-linear-gradient(left, rgba(101,226,218,1) 0%, rgba(51,158,204,1) 100%);
+                background: linear-gradient(to right, rgba(101,226,218,1) 0%, rgba(51,158,204,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65e2da', endColorstr='#339ecc', GradientType=1 );
             }
         }
     }

@@ -1,0 +1,15 @@
+.middle-four-blocks-section {
+    text-align: center;
+    margin: 60px 20px;
+   .block {
+        margin: 40px auto;
+        .block-image {
+            img {
+                height: 88px;
+            }
+        }
+        .block-text {
+            line-height: 1.5;
+        }
+    }
+}

@@ -4,21 +4,7 @@
 
 @import 'header';
 
+@import 'middle_blocks_section';
+
 @import 'media_queries';
 
-
-
-.middle-four-blocks-section {
-    display: grid;
-    text-align: center;
-    .block {
-        width: 270px;
-        margin: 0 auto;
-        .block-image {
-            img {
-                height: 5%;
-            }
-            
-        }
-    }
-}

@@ -73,6 +73,20 @@ header .header-main-content .header-text button {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#65e2da", endColorstr="#339ecc", GradientType=1 );
 }
 
+.middle-four-blocks-section {
+  text-align: center;
+  margin: 60px 20px;
+}
+.middle-four-blocks-section .block {
+  margin: 40px auto;
+}
+.middle-four-blocks-section .block .block-image img {
+  height: 88px;
+}
+.middle-four-blocks-section .block .block-text {
+  line-height: 1.5;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     padding: 60px;
@@ -98,6 +112,22 @@ header .header-main-content .header-text button {
     font-size: 1.2em;
     padding: 15px 80px;
   }
+
+  .middle-four-blocks-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 80px;
+    padding: 20px 40px;
+  }
+  .middle-four-blocks-section .block {
+    margin: 0;
+  }
+  .middle-four-blocks-section .block .block-image img {
+    height: 100px;
+  }
+  .middle-four-blocks-section .block .block-text p {
+    font-size: 1.1em;
+  }
 }
 @media only screen and (min-width: 1440px) {
   header {
@@ -112,17 +142,22 @@ header .header-main-content .header-text button {
   header .header-main-content .header-text p {
     width: 70%;
   }
-}
-.middle-four-blocks-section {
-  display: grid;
-  text-align: center;
-}
-.middle-four-blocks-section .block {
-  width: 270px;
-  margin: 0 auto;
-}
-.middle-four-blocks-section .block .block-image img {
-  height: 5%;
+
+  .middle-four-blocks-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 80px;
+    padding: 40px 240px;
+  }
+  .middle-four-blocks-section .block {
+    margin: 0;
+  }
+  .middle-four-blocks-section .block .block-image img {
+    height: 100px;
+  }
+  .middle-four-blocks-section .block .block-text p {
+    font-size: 1.1em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

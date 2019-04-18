@@ -1,0 +1,31 @@
+.stay-productive {
+    padding: 20px;
+    .stay-productive-image {
+        img {
+            width: 100%;
+        }
+    }
+    .stay-poductive-text {
+        margin: 40px 0;
+        .stay-productive-anchor {
+            border-bottom: 1px solid $cyan;
+            width: 150px;
+            padding-block-end: 5px;
+            a {
+                text-decoration: none;
+                color: $cyan;
+                i {
+                    color: $main;
+                    background-color: $cyan;
+                    border-radius: 50%;
+                    height: 15px;
+                    width: 15px;
+                    font-size: 0.7em;
+                    padding: 3px;
+                    margin-left: 5px;
+                }
+              }
+        }
+        
+    }
+}
